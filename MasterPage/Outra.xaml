@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="MasterPage.Outra" Title="Login">
+	<ContentPage.Content>
+        <StackLayout VerticalOptions="Start" Padding="10, 40">
+            <Entry Placeholder="Usuario"></Entry>
+            <Entry Placeholder="Senha" IsPassword="true"></Entry>
+            <Button Text="Entrar"></Button>
+        </StackLayout>
+
+	</ContentPage.Content>
+</ContentPage>
